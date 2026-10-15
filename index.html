@@ -1,0 +1,103 @@
+<!doctype html>
+<!-- Hallmark · macrostructure: Workbench-lite · genre: atmospheric · tone: cinematic, restrained · theme: custom (graphite / brass) · fonts: Oswald + Golos Text (client choice) · pre-emit critique: P4 H4 E4 S4 R4 V4 -->
+
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Мастерская рукоятей - демо первого экрана</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&family=Golos+Text:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a class="logo" href="#top" aria-label="На главную"><i>&#9679;</i> <span class="ask" style="font-family:var(--head);font-size:16px">&lt;&lt;название мастерской&gt;&gt;</span></a>
+    <nav aria-label="Основное меню">
+      <a href="#napravleniya">Направления</a>
+      <a href="#katalog">Каталог</a>
+      <a href="#kontakty">Контакты</a>
+    </nav>
+    <a class="cart" href="#katalog" aria-label="Корзина">Корзина <b id="cnt">0</b></a>
+  </div>
+</header>
+
+<main id="top">
+<div class="hero">
+  <svg class="scan" viewBox="0 0 470 570" aria-hidden="true">
+    <!-- контур рукояти: слева бороздки под пальцы, справа выпуклость под ладонь -->
+    <path class="c main" pathLength="1" d="M150 40 C120 44 108 70 112 104 C116 136 100 150 102 180 C104 206 92 214 94 244 C96 272 84 282 90 316 C96 350 120 372 128 408 C134 440 130 480 160 516 C176 534 214 534 232 518 C262 490 262 446 270 408 C278 368 312 336 314 286 C316 240 290 214 292 168 C294 120 304 88 270 62 C246 44 190 34 150 40 Z"/>
+    <path class="c" pathLength="1" d="M158 62 C132 66 124 86 128 112 C132 142 118 154 120 182 C122 208 112 216 114 244 C116 270 106 280 110 312 C114 344 136 364 144 400 C150 432 148 470 172 500 C184 512 208 512 220 502 C244 478 242 440 250 404 C258 366 290 338 292 288 C294 246 270 222 272 170 C274 128 282 100 258 80 C238 64 196 56 158 62 Z"/>
+    <path class="c" pathLength="1" d="M168 84 C146 90 140 104 144 124 C148 150 136 162 138 186 C140 210 130 218 132 244 C134 268 126 278 130 308 C134 336 152 354 160 388 C166 418 164 456 184 482 C192 490 204 490 212 482 C228 462 226 430 232 398 C238 362 266 338 268 292 C270 252 248 228 250 172 C252 136 260 114 242 98 C226 86 198 80 168 84 Z"/>
+    <path class="c" pathLength="1" d="M180 108 C166 114 160 124 164 140 C168 162 156 172 158 194 C160 216 150 224 152 246 C154 268 148 278 152 304 C156 328 170 344 176 372 C180 398 180 430 196 450 C202 456 208 456 214 450 C224 436 222 412 226 386 C230 356 248 336 250 296 C252 262 234 240 236 190 C238 160 242 140 228 126 C216 116 198 106 180 108 Z"/>
+    <!-- замеры -->
+    <line class="m" x1="60" y1="40" x2="60" y2="534"/><line class="m" x1="52" y1="40" x2="68" y2="40"/><line class="m" x1="52" y1="534" x2="68" y2="534"/>
+    <line class="m" x1="92" y1="560" x2="316" y2="560"/>
+    <text x="14" y="296">длина</text>
+    <text x="170" y="552">ширина ладони</text>
+    <circle class="m" cx="302" cy="198" r="5"/><line class="m" x1="307" y1="198" x2="380" y2="198"/><text x="318" y="190">упор большого пальца</text>
+  </svg>
+
+  <div class="wrap">
+    <h1>Рукоять по вашей ладони</h1>
+    <p class="sub">Мастерская кастомных анатомических рукоятей и тюнинга. <span class="ask">&lt;&lt;запросить у заказчика: как делается рукоять и из чего&gt;&gt;</span></p>
+    <a class="cta" href="#katalog">Смотреть каталог</a>
+  </div>
+</div>
+
+<section id="napravleniya">
+  <div class="wrap">
+    <h2>Три направления</h2>
+    <div class="plates">
+      <a class="plate" href="#katalog" data-go="Рукояти">
+        <svg viewBox="0 0 120 160" aria-hidden="true"><path d="M44 10C30 12 26 28 28 44C30 60 20 66 22 82C24 98 18 104 22 120C26 140 44 150 62 150C82 150 92 130 94 106C96 84 100 70 96 52C92 30 82 12 44 10Z"/><path d="M40 30C34 34 34 44 36 52M38 66C32 72 32 80 34 88M38 102C34 108 34 114 36 120"/></svg>
+        <h3>Анатомические рукояти</h3>
+        <p>Анатомическая форма под руку.</p>
+      </a>
+      <a class="plate" href="#katalog" data-go="Тюнинг">
+        <svg viewBox="0 0 120 160" aria-hidden="true"><circle cx="60" cy="80" r="34"/><circle cx="60" cy="80" r="14"/><path d="M60 40V20M60 140V120M20 80H40M80 80H100M32 52l14 14M74 94l14 14M88 52L74 66M46 94L32 108"/></svg>
+        <h3>Тюнинг</h3>
+        <p>Доработка и отделка.</p>
+      </a>
+      <a class="plate" href="#katalog" data-go="Аксессуары">
+        <svg viewBox="0 0 120 160" aria-hidden="true"><rect x="22" y="40" width="76" height="80" rx="6"/><path d="M22 66H98M44 40V26H76V40"/><circle cx="60" cy="94" r="10"/></svg>
+        <h3>Аксессуары</h3>
+        <p>Дополнения к комплекту.</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="katalog" style="padding-top:20px">
+  <div class="wrap">
+    <h2>Каталог</h2>
+    <div class="tools">
+      <div class="tabs" role="group" aria-label="Фильтр каталога">
+        <button aria-pressed="true" data-f="all">Все</button>
+        <button aria-pressed="false" data-f="Рукояти">Рукояти</button>
+        <button aria-pressed="false" data-f="Тюнинг">Тюнинг</button>
+        <button aria-pressed="false" data-f="Аксессуары">Аксессуары</button>
+      </div>
+      <input class="search" id="q" type="search" placeholder="Найти по названию" aria-label="Поиск по каталогу">
+    </div>
+    <div class="grid" id="grid"></div>
+    <p class="empty" id="empty">Ничего не найдено. Уберите часть слов или выберите «Все».</p>
+    <p class="note">В демо показана часть каталога на заглушках. Полный каталог (~50 товаров), корзина с промокодами, доставка и оплата подключаются на следующем этапе.</p>
+  </div>
+</section>
+</main>
+
+<footer id="kontakty">
+  <div class="wrap">
+    <span>Демонстрационный макет, не является официальным сайтом организации.</span>
+    <span>Телефон: 8 (888) 888-88-88 · Telegram: <span class="ask">&lt;&lt;запросить у заказчика&gt;&gt;</span></span>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
